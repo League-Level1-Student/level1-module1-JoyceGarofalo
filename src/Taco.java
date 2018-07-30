@@ -3,12 +3,12 @@ public class Taco {
 	private String meat;
 	private String sauce;
 
-	void getMeat() {
-		getMeat();
+	public String getMeat() {
+		return meat;
 	}
 
-	void getSauce() {
-		getSauce();
+	public String getSauce() {
+		return sauce;
 	}
 
 	void setMeat(String meat) {
@@ -18,5 +18,5 @@ public class Taco {
 	void setSauce(String sauce) {
 		setSauce(sauce);
 	}
-	// return variables
+	
 }
